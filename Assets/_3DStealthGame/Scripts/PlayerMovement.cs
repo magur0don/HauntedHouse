@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
 
     public InputAction MoveAction;
 
-    private float walkSpeed = 1.0f;
-    private float turnSpeed = 20f;
+    public float walkSpeed = 1.0f;
+    public float turnSpeed = 20f;
 
     private Rigidbody m_RigidBody;
     Vector3 m_Movement;
